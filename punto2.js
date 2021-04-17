@@ -6,6 +6,6 @@
 
    //punto 2
 
-let numero
+let numero=prompt("ingrese los  valores")
 
 
