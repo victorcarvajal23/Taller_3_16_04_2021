@@ -6,13 +6,11 @@
 let inicio=true
 let numero1
 let valida=true
-
 while(inicio==true){
     if (valida==true)
     {
     numero1=parseInt( prompt("ingrese el primer valor"))
-    }
-    
+    }   
 valida =Number.isInteger(numero1)
 if (valida==true) {
     let numero2=parseInt( prompt("ingrese el segundo valor"))

@@ -5,7 +5,17 @@
    Si utiliza la función console.log(); de lo contrario si utiliza alert(); No mostrar nada en el index.html */
 
    //punto 2
-
+let total=0
 let numero=prompt("ingrese los  valores")
+for (const recorre of numero) {
+   let numero2=parseInt(recorre)
+   let valida= Number.isInteger(numero2)
+   if (valida==true) {
+      total++
+   }    
+}
+console.log("total "+numero)
+console.log("numeros leidos "+total)
+
 
 
